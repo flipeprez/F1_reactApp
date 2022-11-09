@@ -1,0 +1,29 @@
+{
+  "name": "f1_firstapi",
+  "version": "1.0.0",
+  "description": "In this project i'm going to try to develop a API than bring information about teams, championship and drivers of F1 since the beginning of the championship in 1950.",
+  "main": "index.js",
+  "scripts": {
+    "api_go": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flipeprez/F1_FirstAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flipeprez/F1_FirstAPI/issues"
+  },
+  "homepage": "https://github.com/flipeprez/F1_FirstAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
